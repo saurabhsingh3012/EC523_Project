@@ -1,5 +1,39 @@
 # EC523_Project
 
+## Introduction
+This repo contains BirdNET and Google Sound Seperation models and scripts for processing large amounts of audio data or single audio files. This repo contains both the latest and older versions of BirdNET for acoustic analyses.
+
+## Setup (birdnetlib)
+
+The easiest way to setup BirdNET on your machine is to install [birdnetlib](https://pypi.org/project/birdnetlib/) through pip with:
+
+```
+pip3 install birdnetlib
+```
+
+Make sure to install Tensorflow Lite, librosa and ffmpeg like mentioned below. You can run BirdNET with:
+
+```
+from birdnetlib import Recording
+from birdnetlib.analyzer import Analyzer
+from datetime import datetime
+
+# Load and initialize the BirdNET-Analyzer models.
+analyzer = Analyzer()
+
+recording = Recording(
+    analyzer,
+    "sample.mp3",
+    lat=35.4244,
+    lon=-120.7463,
+    date=datetime(year=2022, month=5, day=10), # use date or week_48
+    min_conf=0.25,
+)
+recording.analyze()
+print(recording.detections)
+```
+
+
 ## References
 
 [1]Stefan Kahl, et al. "Birdnet: A Deep Learning Solution for Avian Diversity Monitoring." Ecological informatics, v.61. pp. 101236. 
