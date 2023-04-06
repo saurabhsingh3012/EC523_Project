@@ -1,0 +1,28 @@
+Error: Cannot save result for /projectnb/dl523/projects/BirdNet/BirdNET-Analyzer/example/soundscape.wav.
+Traceback (most recent call last):
+  File "analyze.py", line 308, in analyzeFile
+    rpath = rpath[1:] if rpath[0] in ['/', '\\'] else rpath
+IndexError: string index out of range
+
+Error: Cannot open audio file /example/soundscape.wav
+Error: Cannot save result for example/soundscape.wav.
+Traceback (most recent call last):
+  File "analyze.py", line 308, in analyzeFile
+    rpath = rpath[1:] if rpath[0] in ['/', '\\'] else rpath
+IndexError: string index out of range
+
+Error: Cannot save result for example/soundscape.wav.
+Traceback (most recent call last):
+  File "analyze.py", line 308, in analyzeFile
+    rpath = rpath[1:] if rpath[0] in ['/', '\\'] else rpath
+IndexError: string index out of range
+
+Error: Cannot open audio file /example/soundscape.wav
+Error: Cannot open audio file /example/soundscape.wav
+Error: Cannot save result for /projectnb/dl523/projects/BirdNet/Kg_dataset/train_audio/afrsil1/XC125458.ogg.
+Traceback (most recent call last):
+  File "analyze.py", line 308, in analyzeFile
+    rpath = rpath[1:] if rpath[0] in ['/', '\\'] else rpath
+IndexError: string index out of range
+
+Error: Cannot open audio file /../Kg_dataset/train_audio/afrsil1/XC125458.ogg
