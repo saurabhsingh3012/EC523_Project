@@ -33,6 +33,36 @@ recording.analyze()
 print(recording.detections)
 ```
 
+## Usage
+
+1. Inspect config file for options and settings, especially inference settings. Specify a custom species list if needed and adjust the number of threads TFLite can use to run the inference.
+
+2. Run `analyzer.py` to analyze an audio file. You need to set paths for the audio file and selection table output. Here is an example:
+
+```
+python3 analyze.py --i /path/to/audio/folder --o /path/to/output/folder
+```
+
+<b>NOTE</b>: Your custom species list has to be named 'species_list.txt' and the folder containing the list needs to be specified with `--slist /path/to/folder`. You can also specify the number of CPU threads that should be used for the analysis with `--threads <Integer>` (e.g., `--threads 16`). If you provide GPS coordinates with `--lat` and `--lon`, the custom species list argument will be ignored.
+
+3. Run `embeddings.py` to extract feature embeddings instead of class predictions. Result file will contain timestamps and lists of float values representing the embedding for a particular 3-second segment. Embeddings can be used for clustering or similarity analysis. Here is an example:
+
+```
+python3 embeddings.py --i example/ --o example/ --threads 4 --batchsize 16
+```
+
+4. After the analysis, run `segments.py` to extract short audio segments for species detections to verify results. This way, it might be easier to review results instead of loading hundreds of result files manually.
+
+5. When editing your own `species_list.txt` file, make sure to copy species names from the labels file of each model. 
+
+6. You can generate a species list for a given location using `species.py` in case you need it for reference. Here is an example:
+
+```
+python3 species.py --o example/species_list.txt --lat 42.5 --lon -76.45 --week 4
+```
+
+
+
 
 ## References
 
