@@ -1,0 +1,27 @@
+Aix sponsa_Wood Duck
+Ammodramus savannarum_Grasshopper Sparrow
+Anas acuta_Northern Pintail
+Anas carolinensis_Green-winged Teal
+Anas platyrhynchos_Mallard
+Anas rubripes_American Black Duck
+Aythya valisineria_Canvasback
+Gallinula galeata_Common Gallinule
+Gallus gallus_Red Junglefowl
+Hirundo rustica_Barn Swallow 
+Hydroprogne caspia_Caspian Tern
+Icterus spurius_Orchard Oriole
+Larus delawarensis_Ring-billed Gull
+Larus fuscus_Lesser Black-backed Gull
+Larus marinus_Great Black-backed Gull
+Larus smithsonianus_American Herring Gull
+Leiothlypis peregrina_Tennessee Warbler
+Leuconotopicus villosus_Hairy Woodpecker
+Piranga olivacea_Scarlet Tanager
+Seiurus aurocapilla_Ovenbird
+Sterna forsteri_Forster's Tern
+Sterna hirundo_Common Tern
+Sterna paradisaea_Arctic Tern
+Tringa flavipes_Lesser Yellowlegs
+Tringa melanoleuca_Greater Yellowlegs
+Tringa semipalmata_Willet
+Tringa solitaria_Solitary Sandpiper
