@@ -83,7 +83,7 @@ Follow the instructions
 ## Run the model on a wav file.
 
 Once you have installed TensorFlow, you can run the 4-output model on a wav file using the following:
-(The process_wav_Saurabh.py file is located in Google Sound Separation/models/tools)
+(The process_wav_Saurabh.py file is located in Google Sound Separation/models/tools. Details are in the .py file itself)
 
 ```
 python3 ../tools/process_wav_Saurabh.py \
