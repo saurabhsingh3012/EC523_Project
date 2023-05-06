@@ -15,12 +15,6 @@ r"""Process a .wav file with a separation model.
 
 Example usage:
 
-python3 process_wav.py \
---model_dir /tmp/latest_best_model/ \
---input_wav /tmp/mixture.wav \
---output_wav /tmp/separated.wav \
---num_sources 2
-
 python3 ../tools/process_wav_Saurabh.py \
 --model_dir ../bird_mixit/output_sources4 \
 --checkpoint ../bird_mixit/output_sources4/model.ckpt-3223090 \
