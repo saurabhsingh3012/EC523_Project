@@ -83,9 +83,10 @@ Follow the instructions
 ## Run the model on a wav file.
 
 Once you have installed TensorFlow, you can run the 4-output model on a wav file using the following:
+(The process_wav_Saurabh.py file is located in Google Sound Separation/models/tools)
 
 ```
-python3 ../tools/process_wav.py \
+python3 ../tools/process_wav_Saurabh.py \
 --model_dir bird_mixit_model_checkpoints/output_sources4 \
 --checkpoint bird_mixit_model_checkpoints/output_sources4/model.ckpt-3223090 \
 --num_sources 4 \
